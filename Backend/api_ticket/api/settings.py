@@ -29,7 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'heron-eminent-starling.ngrok-free.app',
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
+    'orange-barnacle-v55xrg94q76fp9r6-8000.app.github.dev'
 ]
 
 # ngrok http --url=heron-eminent-starling.ngrok-free.app 8000
@@ -101,7 +102,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_HEADERS = [
     'content-type',
     'authorization',
-    'ngrok-skip-browser-warning',  # add this line
+    'ngrok-skip-browser-warning',  # add this line --------
     # other headers you may need
 ]
 CORS_ALLOW_METHODS = [
